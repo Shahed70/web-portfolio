@@ -1,8 +1,10 @@
 body{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
 h1{
-    font-size: 50px;
+    font-size: 40px;
 }
 .nameHighlight{
     color: #ffa500;
@@ -10,12 +12,22 @@ h1{
 .top-part{
     display: flex;
     flex-direction: row;
+    margin-left: 5%;
+    padding: 2%;
 }
-.top-half{
+.top-banner .top-half{
     width: 40%;
 }
 .top-half img{
     width: 100%;
-    margin-left: 5%;
-    padding: 3%;
+}
+.top-banner{
+    background: url('/images/top-banner.png') no-repeat;
+}
+.top-half a{
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-image:linear-gradient(45deg,lightsalmon, tomato);
+    color: #fff;
 }
